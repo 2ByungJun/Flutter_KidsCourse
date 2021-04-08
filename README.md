@@ -1,145 +1,34 @@
-# **Flutter Trip**
-### Update - 2020.09.17
+# 🚍KidsCourse(키즈코스 프로젝트)
 
-### 😊 **Opening**
+![](https://images.velog.io/images/ieed0205/post/1e59828d-26ae-4ccd-b77f-037c421d698a/11.PNG)
 
-**안녕하세요! 플러터 여행입니다!**
+**인원**
 
-**Welcom Novie's Flutter Trip!**
+  - 1명
 
-___
+**개발기간**
 
-[#1. Flutter Download](https://www.notion.so/1-Flutter-Download-f0017038401f48a3b1dfbafe7e5142d9)
-___
+  - 2020년 07월 22일 ~ 2020년 11월 10일
 
-<p>
+**개발언어**
 
-![KidsCourse](https://user-images.githubusercontent.com/50162229/77243657-f06b4700-6c4f-11ea-8fae-26f817f1e9da.gif)
-![Memo memo (1)](https://user-images.githubusercontent.com/50162229/76586963-c4e8ae00-6525-11ea-8150-ccd1a01bd50e.gif) 
-![bmi_calculator](https://user-images.githubusercontent.com/50162229/76694183-183c3700-66b3-11ea-926f-18904002a5f1.gif)
+  - Dart, JS
 
+**적용기술**
 
-</p>
+  - FrontEnd : Flutter
+  - BackEnd : Node.js Express
+  - DB : NoSQL(AirTable)
+  - Firebase FCM
 
-## Study
-> 0. James_flutter/youtube
-    
-    - Day : 2020.05.31 ~
-    - Name : James_flutter youtube
-    
-    참고 
-    - https://www.youtube.com/channel/UCjpik_Cbt0SeE5kBzao4nqg
-   
-    개발일지
-    - 2020.05.31
-        (1/41) Scaffold + README
-        (2/41) Container + README
-        (3/41) Text + README
-    - 2020.06.03
-        (4~8/41) Widgets + README
-        (~10/41) Button + README
-        (11/41)  Navigator + README
-        (12/41)  Navigator_data + README
-        (13/41)  CustomScroll & SliverScroll + README
-    - 2020.06.04
-        (17/41)  Kakao 주소찾기
+**담당업무**
+  
+  - 퍼블리싱(100%)
+  - 개발(100%)
 
-> 0. James_flutter/youtube
-
-    - [2020.06.04] f1 - StatefulWidget + README
-    - [2020.06.05] f2 - App Design + [06.06]README
-    - [2020.06.06] f3 - Animation
-    - [2020.06.09] f4,f4_herotest : Hero Test 및 실습
-    - [2020.06.12] f4 수정
-    - [2020.06.13] f5 - RoutePaging, Node.js-data다루기
-    - [2020.06.19] f5 - Conn HTTP x Node.js, MySQL
-    - [2020.06.20] f5 - Conn HTTP x Node.js, MySQL 이론정리
-    - [2020.07.07] f7 - 로그인, 회원가입 페이지
-    - [2020.07.10] f6 - SOCKET을 이용한 Create, Delete x Airtable x Node.js
-    - [2020.07.11] f6 - update
-                   f7 - Weight 해결 SingleChildScrollView()
-    - [2020.07.12] f8 - FCM 단방향 전송
-    - [2020.07.19] f9 - Auto Login
-
-## Project
-> 1. Counting App(Flutter Demo App)
-    
-    - Day : 2020.03.10
-    - Name : my_first_flutter_project
-    - Content : 클릭시 숫자 증가하는 action 사용
-
-> 2. Memo memo(메모메모)
-
-    - Day : 2020.03.11 ~ 2020.03.16
-    - Name : Memo memo
-    - Content : 메모를 편집하여 나만의 노트 제작
-
-    개발일지
-    - 2020.03.12
-        데이터 베이스 문제 해결, save 구현
-    - 2020.03.13
-        삭제 기능 추가
-    - 2020.03.14
-        view.dart 생성, 다른 페이지에서도 데이터 활용
-    - 2020.03.16
-        Write.dart 추가, edit.dart 수정, 마무리
-
-> 3. Bmi Calculator(비만도 계산기)
-   
-    - Day : 2020.03.15 ~ 2020.03.15
-    - Name : Bmi Calculator
-    - Content : 비만도를 계산하는 어플리케이션
-    - Book : 오준석의 Flutter 생존 코딩
-
-> 4. 오준석의 Flutter 생존코딩
-
-    - Day : 2020.03.17 ~ 진행중
-    - 1. Flutter 환경 구현(2020.03.18)
-    - 2. Dart 문법(2020.03.18)
-    - 3. Flutter_Study
-         - p101 Counting_test(2020.03.19)
-         - p113 StatelessWidget(2020.03.19)
-         - p115 StatefulWidget(2020.03.19)
-         - p210 Complicaated_UI(2020.3.20)
-                - 이미지 추가 수정(2020.3.21)
-
-> 5. Kids Course(보육교사 차량지도 APP)
-   
-    - Day : 2020.03.21 ~ 진행중
-    - Name : Kids Course
-    - Content : 어린이집 보육교사를 위한 차량지도 어플리케이션
-
-    개발일지
-    - 2020.03.21 login.dart 페이지 및 뷰 구현
-    - 2020.03.22 login.dart, provider-회원가입 view 구현
-    - 2020.03.23 Firebase 오류로 인한 Flutter 재구성
-    - 2020.03.24 Firebase 연동 성공, 
-                    - 해결 링크 : https://here4you.tistory.com/223
-    - 2020.03.25 회원가입, 비밀번호 변경(메일로 전송), 자동 로그인, main_home 추가
-    - 2020.03.26 Flutter study - https://velog.io/@ieed0205
-    - 2020.03.27 Complicaated_UI 결합, 로그아웃 아이콘 생성
-    - 2020.03.28 UI 변경
-                 차량지도, 관리 페이지 추가
-                 공지사항 - Memomemo 연결
-                 네비게이션.push 기능 다수 추가
-    - 2020.03.30 Flutter Method error 해결
-    - 2020.04.02 차량코스지도 (버튼, 플로팅바) 
-                 유지보수를 위한 전체적인 Package 개선
-                 Mainpage의 하단에 공지사항 view 추가
-    - 2020.04.22 DEBG 리본 제거
-    - 2020.05.30 DataTable Using
-    - 2020.06.02 전반적인 기능 개선 및 구현예정...
-    - 2020.06.05 Google map 연동
-
-> 6. Quiz DjangoDB(퀴즈 장고DB)
-   
-    - Day : 2020.04.22 ~ 
-    - Name : quizdjgodb
-    - Content : DjangoDB와 연동하여 Flutter 퀴즈 만들기
-    - 인프런 : https://www.inflearn.com/course/%ED%94%8C%EB%9F%AC%ED%84%B0-%EC%9E%A5%EA%B3%A0-%ED%80%B4%EC%A6%88%EC%95%B1-%EC%84%9C%EB%B2%84-%ED%92%80%EC%8A%A4%ED%83%9D/dashboard
-
-    개발일지
-    - 2020.03.22 Flutter UI 구현
+## 소개
+어린이집 보육교사들이 차량 코스를 매번 종이에 작성한다는 것에서 창안하였습니다.
+차량 코스를 더 쉽게 등록할 수 있으며 원아들의 출석관리 및 학부모들에게 FCM 서비스를 제공합니다.
 
 > P. Kids Course(키즈코스)
 
@@ -149,5 +38,9 @@ ___
   -  [2020.08.02] : CarCourse Fixed
   -  [2020.09.07] : login, register
   -  [2020.09.13] : UI 개선
-  -  [2020.09.15] : 원아페이지 완
+  -  [2020.09.15] : 원아페이지 개발
   -  [2020.09.17] : 차량코스 완(FCM 대기)
+  -  [2020.09.20] : CRUD 개선
+  -  [2020.09.25] : FCM 개발 완료
+  -  [2020.10.10] : 학부모 전용 앱 sub 개발완료
+  -  [2020.11.10] : 개발완료
